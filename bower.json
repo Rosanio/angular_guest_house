@@ -1,0 +1,21 @@
+{
+  "name": "melissas_guest_house",
+  "description": "",
+  "main": "",
+  "authors": [
+    "Matt Rosanio <mmrosani@syr.edu>"
+  ],
+  "license": "ISC",
+  "homepage": "",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "^3.3.7"
+  }
+}
