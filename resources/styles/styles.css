@@ -6,6 +6,21 @@
   margin-right: 20px;
 }
 
+.rooms_page_photo {
+  width: 50%;
+  max-width: 400px;
+  height: auto;
+  margin-right: 20px;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  float: left;
+}
+
+.room {
+  margin-top: 50px;
+  display: table-row;
+}
+
 #title {
   text-align: center;
   font-size: 50px;
@@ -40,7 +55,7 @@
   background-color: #006622;
 }
 
-.home-page {
+.home-page, .rooms-page {
   width: 70%;
   float: right;
   margin-right: 15%;
@@ -52,6 +67,11 @@
   float: left;
   margin-left: 15px;
   margin-right: -10px;
+}
+
+h3 {
+  margin-bottom: 20px;
+  margin-top: -20px;
 }
 
 body {
