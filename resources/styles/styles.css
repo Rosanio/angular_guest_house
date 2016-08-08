@@ -1,5 +1,6 @@
 #home_page_photo {
   width:60%;
+  max-width: 500px;
   height: auto;
   float: left;
   margin-right: 20px;
@@ -7,6 +8,11 @@
 
 #title {
   text-align: center;
+  font-size: 50px;
+  font-family: 'Merriweather', serif;
+}
+
+#title-border {
   margin-bottom: 5%;
 }
 
@@ -17,16 +23,21 @@
   height: 100%;
   border: 1px solid #e6e6e6;
   margin: -2.2%;
-  padding-top: 3%;
+  padding-top: 2%;
   background-color: #1a1a1a;
 }
 
 .nav-item {
   text-align: center;
-  padding-top: 0.5em;
-  padding-bottom: 0.5em;
+  padding-top: 0.75em;
+  padding-bottom: 0.25em;
   color: #ffffff;
   font-size: 18px;
+}
+
+.nav-item:hover {
+  cursor: pointer;
+  background-color: #006622;
 }
 
 .home-page {
